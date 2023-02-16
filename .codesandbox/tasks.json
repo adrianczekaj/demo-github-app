@@ -3,7 +3,7 @@
      "tasks": {
          "develop": {
              "name": "Start development server",
-             "command": "yarn dev",
+             "command": "yarn start",
              "runAtStart": false,
              "preview": {
                  "port": 8000,
