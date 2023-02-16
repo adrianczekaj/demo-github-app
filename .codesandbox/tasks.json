@@ -1,14 +1,27 @@
 {
-     "setupTasks": ["yarn install", "yarn build"],
-     "tasks": {
-         "develop": {
-             "name": "development",
-             "command": "yarn start",
-             "runAtStart": false,
-             "preview": {
-                 "port": 8000,
-                 "pr-link": "direct"
-             }
-         }
-     }
+  "setupTasks": [
+    {
+      "name": "Installing Dependencies",
+      "command": "yarn install"
+    },
+    {
+      "name": "Building Workspace",
+      "command": "yarn build"
+    }
+  ],
+  "tasks": {
+    "install-dependencies": {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    },
+    "start-app": {
+      "name": "Run Dev Server",
+      "command": "yarn start",
+      "runAtStart": true,
+      "preview": {
+        "port": 3000,
+        "pr-link": "direct"
+      }
+    }
+  }
 }

@@ -3,7 +3,7 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox - AD Github App demo</h1>
+      <h1>Hello CodeSandbox - AD Github App demo 2</h1>
       <h2>Start editing to see some magic happen!</h2>
     </div>
   );
