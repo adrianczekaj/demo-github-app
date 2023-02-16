@@ -2,7 +2,7 @@
      "setupTasks": ["yarn install", "yarn build"],
      "tasks": {
          "develop": {
-             "name": "Start development server",
+             "name": "development",
              "command": "yarn start",
              "runAtStart": false,
              "preview": {
