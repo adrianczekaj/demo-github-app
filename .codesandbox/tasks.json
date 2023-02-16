@@ -1,0 +1,14 @@
+{
+     "setupTasks": ["yarn install", "yarn build"],
+     "tasks": {
+         "develop": {
+             "name": "Start development server",
+             "command": "yarn dev",
+             "runAtStart": false,
+             "preview": {
+                 "port": 8000,
+                 "pr-link": "direct"
+             }
+         }
+     }
+}
